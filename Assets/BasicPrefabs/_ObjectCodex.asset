@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ea594f5bbf3d7dda2dd8342d323050, type: 3}
+  m_Name: _ObjectCodex
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawnContainer
+  Objects:
+  - name: Hollow Box
+    obj: {fileID: 5569200718660141048, guid: 7d35d1c5ae741956cb0debb0ac4a8af5, type: 3}
+    catagory: Main
+    show: 1
+  - name: Static Box
+    obj: {fileID: 8863124298312191919, guid: deccf1caa441f376488621bb810a218d, type: 3}
+    catagory: Static
+    show: 1
+  - name: Bean
+    obj: {fileID: 8360136185020497885, guid: c17c5629606250e9bbcb0abbcf079397, type: 3}
+    catagory: Extra
+    show: 1
+  - name: Barbed Fence
+    obj: {fileID: 8899388337979232782, guid: 69bb3fa2d2d568ea78d5faa1428a8d73, type: 3}
+    catagory: Extra
+    show: 1
