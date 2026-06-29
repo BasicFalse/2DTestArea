@@ -29,3 +29,7 @@ MonoBehaviour:
     obj: {fileID: 8899388337979232782, guid: 69bb3fa2d2d568ea78d5faa1428a8d73, type: 3}
     catagory: Extra
     show: 1
+  - name: Locked Canister
+    obj: {fileID: 4213399230276067151, guid: 8ddf3051c878af5cf833f2754fa90afa, type: 3}
+    catagory: Containers
+    show: 1

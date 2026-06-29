@@ -10,7 +10,7 @@ public class ObjectManager : MonoBehaviour
         if (!currentObjects.Contains(objToAdd))
         {
             currentObjects.Add(objToAdd);
-            Log("Added object to currentObjects.");
+            Log($"Added object {objToAdd.name} to currentObjects.");
             return true;
         }
 

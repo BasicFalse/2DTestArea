@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class Overlay : MonoBehaviour
 {
-    private CallerContext currentContext = null;
-    public void HandContext(CallerContext handedContxt)
+    protected CallerContext currentContext = null;
+    public virtual void HandContext(CallerContext handedContxt)
     {
-        if(currentContext == null)
-            currentContext = handedContxt;
+        currentContext ??= handedContxt;
     }
 
     public void DestroyUI()
