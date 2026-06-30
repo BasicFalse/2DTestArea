@@ -11,6 +11,7 @@ public class SpawnPanelAssembler : MonoBehaviour
     {
         for(int i = 0; i < Codex.Objects.Length; i++)
         {
+            if(!Codex.Objects[i].show) continue;
             SpawnPanelButton sp = Instantiate(PanelTemplate, Vector3.zero, quaternion.identity, GridContentParent).GetComponent<SpawnPanelButton>();
             sp.icon.sprite = Codex.Objects[i].obj.GetComponent<SpriteRenderer>().sprite;
             sp.icon.GetComponent<RectTransform>().anchoredPosition = new(50,50);

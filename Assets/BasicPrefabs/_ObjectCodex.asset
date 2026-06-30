@@ -33,3 +33,19 @@ MonoBehaviour:
     obj: {fileID: 4213399230276067151, guid: 8ddf3051c878af5cf833f2754fa90afa, type: 3}
     catagory: Containers
     show: 1
+  - name: Apple
+    obj: {fileID: 9198721006864816004, guid: 8579e070d09f22498810b8fc1d2d505e, type: 3}
+    catagory: Food
+    show: 1
+  - name: Orange
+    obj: {fileID: 9198721006864816004, guid: 48734d6d04c426a58a0474ff714c8c66, type: 3}
+    catagory: Food
+    show: 1
+  - name: Lemmon
+    obj: {fileID: 6092469055855677871, guid: 0dffbb8eaed635d77924e130baf97b46, type: 3}
+    catagory: Food
+    show: 1
+  - name: Soap
+    obj: {fileID: 1173708330036010167, guid: 555e6dccf49ff56ce8cc3c266bf376ff, type: 3}
+    catagory: Food
+    show: 1

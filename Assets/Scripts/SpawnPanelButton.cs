@@ -12,7 +12,7 @@ public class SpawnPanelButton : Interactable
     public override void OnInteract()
     {
         Refrences.@r.s.objectToSpawn = linkedObject;
-        Refrences.@r.l.AddLog("Set next spawned object to: " + linkedObject.name);
+        Refrences.@r.l.AddLog("Set next spawned object to: " + linkedObject.name, 4);
     }
 
     public override void OnUIDestroyed()

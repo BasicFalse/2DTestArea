@@ -21,6 +21,7 @@ public class MouseGrabber : MonoBehaviour
 
     void Update()
     {
+        var keyboard = Keyboard.current;
         var mouse = Mouse.current;
         Vector2 mouseWorld = GetMouseWorldPos();
 
@@ -32,6 +33,19 @@ public class MouseGrabber : MonoBehaviour
 
         if (mouse.rightButton.wasPressedThisFrame)
             TryInteract(mouseWorld);
+
+        if(heldObject || heldRigidbody){
+
+            if(keyboard.deleteKey.wasPressedThisFrame)
+                TryDelete();
+            
+            if(keyboard.zKey.wasPressedThisFrame)
+                FreezeOneOfThree(1);
+            if(keyboard.xKey.wasPressedThisFrame)
+                FreezeOneOfThree(2);
+            if(keyboard.cKey.wasPressedThisFrame)
+                FreezeOneOfThree(3);
+        }
 
 
         if (joint != null)
@@ -106,6 +120,44 @@ public class MouseGrabber : MonoBehaviour
             case InteractableType.UI:
                 if(Refrences.@r.ui.CanCallUIOverlay)
                     interactable.OnInteract();
+                break;
+        }
+    }
+
+    void TryDelete()
+    {
+        if (heldRigidbody)
+        {
+            if(joint)
+                Destroy(joint);
+
+            Destroy(heldRigidbody.gameObject);
+            Refrences.@r.l.AddLog("Removed held object", 4);
+        }
+        else if (heldObject)
+        {
+            Destroy(heldObject);
+            Refrences.@r.l.AddLog("Removed held object", 4);
+        }
+
+
+        Release();
+    }
+
+    void FreezeOneOfThree(int three)
+    {
+        if(!heldRigidbody) return;
+
+        switch (three)
+        {
+            case 1:
+                heldRigidbody.constraints ^= RigidbodyConstraints2D.FreezeRotation;
+                break;
+            case 2:
+                heldRigidbody.constraints ^= RigidbodyConstraints2D.FreezePositionX;
+                break;
+            case 3:
+                heldRigidbody.constraints ^= RigidbodyConstraints2D.FreezePositionY;
                 break;
         }
     }
