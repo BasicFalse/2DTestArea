@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 56
+  num: 50
 --- !u!114 &4700614538515664173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 51
+  num: 57
 --- !u!114 &8272735696101720155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 9
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 50
+  num: 56
 --- !u!114 &1938611241735697403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 55
+  num: 49
 --- !u!114 &4063326567017376154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,7 +1118,7 @@ RectTransform:
   m_GameObject: {fileID: 4268831369116111765}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.6428565, y: 0.6428565, z: 0.6428565}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7551600010573407375}
@@ -1222,7 +1222,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -117.09733, y: 0, z: -110.457756, w: 0}
+  m_margin: {x: -67.6973, y: 1.9770126, z: -62.429955, w: 3.6288395}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 57
+  num: 51
 --- !u!114 &3794738517896398629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2225,7 +2225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockedCanisterButton
   ui: {fileID: -5760105489608897417}
-  num: 49
+  num: 55
 --- !u!114 &2431030367677145889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2844,7 +2844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
@@ -3056,7 +3056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
@@ -3193,7 +3193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
@@ -3330,7 +3330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 9
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
@@ -3761,7 +3761,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 8
+  m_text: 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
   m_sharedMaterial: {fileID: -3247503057089313417, guid: 9050e4d63fbef269e886d6fb0042a561, type: 2}
